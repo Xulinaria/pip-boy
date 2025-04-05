@@ -12,7 +12,7 @@
       "@/*": ["src/*"],
       "@app/*": ["src/app/*"],
       "@pages/*": ["src/page/*"],
-      "@widgets": ["src/widgets/*"],
+      "@widgets/*": ["src/widgets/*"],
       "@features/*": ["src/features/*"],
       "@entities/*": ["src/entities/*"],
       "@shared/*": ["src/shared/*"],
@@ -20,7 +20,6 @@
       "@styles/*": ["src/shared/styles/*"],
       "@lib/*": ["src/shared/lib/*"],
       "@hooks/*": ["src/shared/lib/hook/*"],
-      "@types/*": ["src/shared/types/*"],
       "@api/*": ["src/shared/api/*"],
       "@ui/*": ["src/shared/ui/*"]
     },

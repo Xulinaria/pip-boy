@@ -21,7 +21,6 @@ export default defineConfig({
       '@lib': path.resolve(__dirname, './src/shared/lib'),
       '@utils': path.resolve(__dirname, './src/shared/utils'),
       '@hooks': path.resolve(__dirname, './src/shared/lib/hooks'),
-      '@types': path.resolve(__dirname, './src/shared/types'),
       '@api': path.resolve(__dirname, './src/shared/api'),
       '@components': path.resolve(__dirname, './src/shared/ui/components'),
       '@ui': path.resolve(__dirname, './src/shared/ui')
