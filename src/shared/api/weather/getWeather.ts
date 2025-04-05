@@ -28,14 +28,7 @@ export const getWeather = async () => {
   // Process first location. Add a for-loop for multiple locations or weather models
   const responses = await fetchWeatherApi(URL_API, params)
   const response = responses[0]
-
-  // Attributes for timezone and location
   const utcOffsetSeconds = response.utcOffsetSeconds()
-  // const timezone = response.timezone()
-  // const timezoneAbbreviation = response.timezoneAbbreviation()
-  // const latitude = response.latitude()
-  // const longitude = response.longitude()
-
   const hourly = response.hourly()!
 
   // Note: The order of weather variables in the URL query and the indices below need to match!
