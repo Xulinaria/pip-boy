@@ -1,1 +1,1 @@
-export { formatTemperature } from './formatTemperature'
+export { formatTemperature } from './format-temperature'
