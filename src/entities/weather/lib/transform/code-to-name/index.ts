@@ -1,1 +1,1 @@
-export { codeToName } from './code-ro-name'
+export { codeToName } from './code-to-name'
