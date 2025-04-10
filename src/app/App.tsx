@@ -1,11 +1,5 @@
-import { WeatherWidgets } from '@widgets/weather'
-
 function App() {
-  return (
-    <div className=''>
-      <WeatherWidgets />
-    </div>
-  )
+  return <div className=''></div>
 }
 
 export default App
