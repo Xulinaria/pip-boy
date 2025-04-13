@@ -8,14 +8,14 @@ import { codeToName } from '../../lib/transform/code-to-name'
 import { windDirectionToName } from '../../lib/transform/wind-direction-to-name'
 
 interface WeatherStatsProp {
-  yesterdayTemperature: number
-  currentTemperature: number
-  apparentTemperature: number
-  weatherCode: number
-  windSpeed: number
-  direction: number
-  humidity: number
-  pressure: number
+  yesterdayTemperature?: number
+  currentTemperature?: number
+  apparentTemperature?: number
+  weatherCode?: number
+  windSpeed?: number
+  direction?: number
+  humidity?: number
+  pressure?: number
 }
 
 export const WeatherStats = ({
