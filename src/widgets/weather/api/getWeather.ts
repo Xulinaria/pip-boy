@@ -3,6 +3,7 @@ import { fetchWeatherApi } from 'openmeteo'
 const params = {
   latitude: 51.48,
   longitude: 46.1,
+  timezone: 'auto',
   hourly: [
     'temperature_2m',
     'wind_speed_10m',
@@ -14,7 +15,7 @@ const params = {
     'apparent_temperature',
     'pressure_msl'
   ],
-  timezone: 'auto',
+
   past_days: 1,
   forecast_days: 2
 }
