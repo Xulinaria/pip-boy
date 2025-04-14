@@ -20,8 +20,7 @@ export default defineConfig({
       '@styles': path.resolve(__dirname, './src/shared/styles'),
       '@lib': path.resolve(__dirname, './src/shared/lib'),
       '@utils': path.resolve(__dirname, './src/shared/utils'),
-      '@hooks': path.resolve(__dirname, './src/shared/hooks'),
-      '@types': path.resolve(__dirname, './src/shared/types'),
+      '@hooks': path.resolve(__dirname, './src/shared/lib/hooks'),
       '@api': path.resolve(__dirname, './src/shared/api'),
       '@components': path.resolve(__dirname, './src/shared/ui/components'),
       '@ui': path.resolve(__dirname, './src/shared/ui')
