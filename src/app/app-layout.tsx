@@ -1,11 +1,11 @@
 import { Outlet } from 'react-router'
 
-import { SidebarNav } from '@entities/sidebar'
+import { SidebarWidget } from '@widgets/sidebar'
 
 export const AppLayout = () => {
   return (
     <div className='flex'>
-      <SidebarNav />
+      <SidebarWidget />
       <main className='p-2.5'>
         <Outlet />
       </main>
